@@ -1,0 +1,10 @@
+{
+  "transform": {
+    "^.+\\.js$": "babel-jest"
+  },
+  "testRegex": ".+\\.spec\\.js$",
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "rootDir": ".."
+}

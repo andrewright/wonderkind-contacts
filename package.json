@@ -1,0 +1,38 @@
+{
+  "name": "wonderkind-contacts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack",
+    "test": "jest --config config/jest.json",
+    "dev": "webpack-dev-server --inline --hot --config config/webpack.development.js",
+    "build": "webpack --config config/webpack.production.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.1",
+    "css-loader": "0.28.10",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "1.1.11",
+    "html-webpack-plugin": "3.0.6",
+    "jest": "22.4.2",
+    "mini-css-extract-plugin": "0.2.0",
+    "postcss-cssnext": "3.1.0",
+    "style-loader": "0.20.3",
+    "vue-loader": "14.2.1",
+    "vue-svg-loader": "0.5.0",
+    "vue-template-compiler": "2.5.15",
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.11",
+    "webpack-dev-server": "3.1.1",
+    "webpack-merge": "4.1.2"
+  },
+  "dependencies": {
+    "normalize.css": "8.0.0",
+    "uuid": "3.2.1",
+    "vue": "2.5.15",
+    "vue-router": "3.0.1",
+    "vuex": "3.0.1"
+  }
+}
