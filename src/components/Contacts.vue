@@ -247,6 +247,10 @@
         }
 
         & .name {
+            white-space: nowrap;
+            flex-shrink: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-weight: 500;
 
             &:not(input) {
