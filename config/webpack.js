@@ -39,7 +39,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Wonderkinds Contacts',
+            title: 'Wonderkind Contacts',
             inject: true,
             template: path.resolve('src/index.ejs'),
             minify: {
