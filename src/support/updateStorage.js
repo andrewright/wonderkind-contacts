@@ -1,1 +1,4 @@
-export const updateStorage = (storage, key) => (values) => localStorage.setItem(key, JSON.stringify(values))
+export const updateStorage = (storage, key) => (values) => storage.setItem(
+    key,
+    JSON.stringify(values)
+);
