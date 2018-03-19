@@ -19,14 +19,16 @@ module.exports = {
             },
             {
                 test: /\.svg$/,
-                loader: 'vue-svg-loader'
+                loader: 'vue-svg-loader', // `vue-svg` for webpack 1.x
             },
             {
                 test: /\.vue$/,
                 loader: 'vue-loader',
                 options: {
                     postcss: [
-                        require('postcss-cssnext')()
+                        require('postcss-cssnext')({
+                            browsers: 'last 2 Chrome versions'
+                        })
                     ]
                 }
             }
